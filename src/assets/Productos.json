@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nombre": "Blazer de cuerina Negro",
+    "descripcion": "Blazer largo negro de alta calidad, elegante y sofisticado. Perfecto para ocasiones formales o informales. Agrega un toque de estilo y confianza a cualquier outfit.",
+    "talles": "1-2-3",
+    "precio": 14000,
+    "avatar": "/img.ropa/blazer negro.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Blazer de cuerina Beige",
+    "descripcion": "Blazer largo de cuerina beige, confeccionado con materiales de alta calidad y diseño sofisticado. Perfecto para agregar un toque de estilo y elegancia a cualquier outfit. Ideal para mujeres que buscan confianza y versatilidad.",
+    "talles": "1-2-3",
+    "precio": 14000,
+    "avatar": "/img.ropa/blazer beige.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Blazer de cuerina Marron",
+    "descripcion": "Blazer largo de cuerina marrón, combina estilo y elegancia en una sola prenda. Perfecto para agregar un toque de sofisticación a cualquier outfit. Ideal para mujeres que buscan confianza y estilo.",
+    "talles": "1-2-3",
+    "precio": 14000,
+    "avatar": "/img.ropa/blazer marron.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Short de cuerina Negro",
+    "descripcion": "Short de cuerina negro, confeccionado con materiales de alta calidad y diseño moderno. Perfecto para agregar un toque de estilo y comodidad a cualquier outfit. Ideal para mujeres que buscan libertad y confianza.",
+    "talles": "1-2-3-4",
+    "precio": 8000,
+    "avatar": "/img.ropa/short-de-cuerina-negro.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Short de cuerina Beige",
+    "descripcion": "Short de cuerina beige, un toque de elegancia y frescura para cualquier outfit. Perfecto para mujeres que buscan estilo y comodidad. Ideal para ocasiones informales o para un look relajado y chic.",
+    "talles": "1-2-3-4",
+    "precio": 8000,
+    "avatar": "/img.ropa/short-de-cuerina-beige.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Short de cuerina Verde",
+    "descripcion": "Short de cuerina verde, un toque de frescura y originalidad para cualquier outfit. Perfecto para mujeres que buscan destacar y agregar un toque de personalidad a su estilo. Ideal para ocasiones informales o para un look relajado y trendy.",
+    "talles": "1-2-3-4",
+    "precio": 8000,
+    "avatar": "/img.ropa/short-de-cuerina-verde.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "Short de cuerina Marron",
+    "descripcion": "Short de cuerina marrón, combina estilo y comodidad en una sola prenda. Perfecto para agregar un toque de calidez y elegancia a cualquier outfit. Ideal para mujeres que buscan libertad y estilo.",
+    "talles": "1-2-3-4",
+    "precio": 8000,
+    "avatar": "/img.ropa/short-de-cuerina-marron.webp"
+  }
+]
