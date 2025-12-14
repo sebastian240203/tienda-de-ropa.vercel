@@ -1,13 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import datosProductos from "../assets/productos.json";  
 
 function Inicio() {
-    const productos = datosProductos || [];  
-    console.log('datosProductos:', datosProductos);  
-    console.log('productos:', productos);  
+    const [productos, setProductos] = useState([]);
+    const [cargando, setCargando] = useState(true);
+    const [error, setError] = useState(null);
 
-    const productosDestacados = productos.slice(0, 3);  
+    useEffect(() => {
+        const obtenerProductos = async () => {
+            try {
+                const respuesta = await fetch('https://68f805f2f7fb897c6617b5bd.mockapi.io/api/productos');
+                if (!respuesta.ok) throw new Error('Error al cargar productos');
+                const datos = await respuesta.json();
+                setProductos(datos);
+            } catch (error) {
+                console.error('Error al obtener productos:', error);
+                setError('No se pudieron cargar los productos.');
+            } finally {
+                setCargando(false);
+            }
+        };
+        obtenerProductos();
+    }, []);
+
+    const productosDestacados = productos.slice(0, 3);  // Primeros 3 productos como destacados
+
+    if (cargando) return <p>Cargando productos...</p>;
+    if (error) return <p>{error}</p>;
 
     return (
         <>
